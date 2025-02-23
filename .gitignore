@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+dist/
+build/
+
+# IDE / Éditeur
+.vscode/
+.idea/
+.DS_Store
+
+# Environnements sensibles
+.env
+.env.local
+.env.*.local
+
