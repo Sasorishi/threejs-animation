@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import * as THREE from "three";
 
-function Test() {
+function Cube() {
   const mountRef = useRef(null);
 
   useEffect(() => {
@@ -57,4 +57,4 @@ function Test() {
   return <div ref={mountRef} />;
 }
 
-export default Test;
+export default Cube;
